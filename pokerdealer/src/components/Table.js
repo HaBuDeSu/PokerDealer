@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import table from '../Table.png';
 
 function Table() {
   return (
     <div className="Table">
       <div>
-          <img src="../Table.png"/>
+          <img src={table}/>
       </div>
     </div>
   );
