@@ -3,9 +3,9 @@ import '../App.css';
 import Player from './Player.js';
 import Hand from './Hand.js';
 
-function Seat() {
+function Seat(props) {
   return (
-    <div className="Seat">
+    <div className={`Seat${props.position}`}>
       <Player />
       <Hand />
     </div>

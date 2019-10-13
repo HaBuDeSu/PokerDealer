@@ -5,7 +5,8 @@ import Card from './Card.js';
 function Hand() {
   return (
     <div className="Hand">
-        <Card />
+        <Card suit={"Spade"} rank={"A"}/>
+        <Card suit={"Club"} rank={"A"}/>
     </div>
   );
 }
