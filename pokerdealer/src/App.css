@@ -24,39 +24,55 @@
 .Seat1 {
   position: fixed;
   top: 320px;
-  left: 650px;
+  left: 625px;
 }
 
 .Seat2 {
   position: fixed;
   top: 140px;
-  left: 880px;
+  left: 855px;
 }
 
 .Seat3 {
   position: fixed;
   top: 140px;
-  left: 1110px;
+  left: 1085px;
 }
 
 .Seat4 {
   position: fixed;
   top: 320px;
-  left: 1340px;
+  left: 1315px;
 }
 
 .Seat5 {
   position: fixed;
   top: 500px;
-  left: 1100px;
+  left: 1075px;
 }
 
 .Seat6 {
   position: fixed;
   top: 500px;
-  left: 880px;
+  left: 855px;
 }
 
 .action {
   border: red 2px solid;
+}
+
+.Hand img {
+  width: 60px;
+  height: 100px;
+}
+
+.board {
+  position: fixed;
+  top: 320px;
+  left: 875px;
+}
+
+.board img {
+  width: 60px;
+  height: 100px;
 }

@@ -1,12 +1,11 @@
 import React from 'react';
 import '../App.css';
-import Card from './Card.js';
 
-function Hand() {
+function Hand(props) {
   return (
     <div className="Hand">
-        <Card suit={"Spade"} rank={"A"}/>
-        <Card suit={"Club"} rank={"A"}/>
+        <img src={props.card1.image} alt="card"/>
+        <img src={props.card2.image} alt="card"/>
     </div>
   );
 }
