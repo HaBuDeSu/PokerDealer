@@ -11,15 +11,24 @@ class Table extends React.Component {
     this.state = {
       deck: [],
       seats: [
-        {position: 1, player: "", card1: {}, card2: {}},
-        {position: 2, player: "", card1: {}, card2: {}},
-        {position: 3, player: "", card1: {}, card2: {}},
-        {position: 4, player: "", card1: {}, card2: {}},
-        {position: 5, player: "", card1: {}, card2: {}},
-        {position: 6, player: "", card1: {}, card2: {}},
+        {position: 1, player: "", stack: 1000, card1: {}, card2: {}, button: true, SB: false, BB: false, action: false, live: true, bet: 0},
+        {position: 2, player: "", stack: 1000, card1: {}, card2: {}, button: false, SB: true, BB: false, action: false, live: true, bet: 0},
+        {position: 3, player: "", stack: 1000, card1: {}, card2: {}, button: false, SB: false, BB: true, action: false, live: true, bet: 0},
+        {position: 4, player: "", stack: 1000, card1: {}, card2: {}, button: false, SB: false, BB: false, action: true, live: true, bet: 0},
+        {position: 5, player: "", stack: 1000, card1: {}, card2: {}, button: false, SB: false, BB: false, action: false, live: true, bet: 0},
+        {position: 6, player: "", stack: 1000, card1: {}, card2: {}, button: false, SB: false, BB: false, action: false, live: true, bet: 0},
       ],
-      board: []
+      board: [],
+      action: {seat: 4, bet: 10},
+      BB: 10,
+      SB: 5
     }
+  }
+
+  bet = (position, size) => {
+    this.setState({
+      
+    })
   }
 
   async componentDidMount() {
